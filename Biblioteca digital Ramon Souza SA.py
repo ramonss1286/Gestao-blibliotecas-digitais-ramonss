@@ -27,12 +27,9 @@ def to_dict(self):
 "tipo_arquivo": self.tipo_arquivo,
 "caminho_arquivo": self.caminho_arquivo
         }
-
 # --- Funções de Listagem e Organização ---
-
 def listar_documentos_organizados(documentos: List[Documento]) -> Dict[str, List[Documento]]:
 documentos_por_tipo = {}
-
 # Define os tipos de arquivo esperados para garantir consistência e ordenação
 tipos_esperados = ['pdf', 'epub', 'docx', 'txt', 'mobi', 'azw']
 
