@@ -1,9 +1,6 @@
 import os
 from typing import List, Dict, Any, Union
 
-# --- Definição da Estrutura do Documento ---
-# (Idealmente, isso estaria em um módulo 'models.py' no seu projeto)
-
 class Documento:
 def __init__(self, id: int, titulo: str, autor: str, ano_publicacao: int, tipo_arquivo: str, caminho_arquivo: str = ""):
 self.id = id
